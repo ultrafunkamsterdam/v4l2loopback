@@ -1,4 +1,4 @@
-KERNELRELEASE	?= `uname -r`
+KERNELRELEASE	?= 4.19.112
 KERNEL_DIR	?= /lib/modules/$(KERNELRELEASE)/build
 PWD		:= $(shell pwd)
 obj-m		:= v4l2loopback.o
